@@ -12,6 +12,9 @@ snapkit = CCPod.new('SnapKit', '~> 4.0.0')
 alamofire = CCPod.new('Alamofire', '~> 4.6')
 skyFloatingLabelTextField = CCPod.new('SkyFloatingLabelTextField', '~> 3.0')
 
+rxSwift = CCPod.new('RxSwift', '~>6.2.0')
+rxCocoa = CCPod.new('RxCocoa', '~>6.2.0')
+
 #Every pod that is used in the framework must be
 #included in the main app as framework does not copy pods to target,
 #so you would end up with dyld: library not loaded
@@ -22,6 +25,8 @@ skyFloatingLabelTextField = CCPod.new('SkyFloatingLabelTextField', '~> 3.0')
     pod snapkit.name, snapkit.version
 	pod skyFloatingLabelTextField.name, skyFloatingLabelTextField.version
 	pod alamofire.name, alamofire.version
+	pod rxSwift.name, rxSwift.version
+	pod rxCocoa.name, rxCocoa.version
   end
 end
 
@@ -46,6 +51,7 @@ target 'CCFeature0' do
 	
 	pod skyFloatingLabelTextField.name, skyFloatingLabelTextField.version
 	pod snapkit.name, snapkit.version
+
 end
 
 target 'CCFeature1' do
@@ -59,4 +65,6 @@ target 'CCFeature2' do
 	project project_path("CCFeature2")
 	
 	pod snapkit.name, snapkit.version
+	pod rxSwift.name, rxSwift.version
+	pod rxCocoa.name, rxCocoa.version
 end
