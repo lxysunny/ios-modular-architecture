@@ -9,7 +9,7 @@ DEPENDENCIES:
   - SnapKit (~> 4.0.0)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - Alamofire
     - SkyFloatingLabelTextField
     - SnapKit
@@ -19,6 +19,6 @@ SPEC CHECKSUMS:
   SkyFloatingLabelTextField: 703aa1420b697392b1e7dba25571180dde018477
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
 
-PODFILE CHECKSUM: f0ca08ba407aeddf9c8bcb2ae293736be32f3786
+PODFILE CHECKSUM: 014f2c25077aec1f3ce86918247dda0cd53eebe2
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.11.2
