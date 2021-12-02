@@ -26,4 +26,7 @@
          location = "group:../CCFeature2/CCFeature2.xcodeproj">
       </FileRef>
    </Group>
+   <FileRef
+      location = "group:../RxSwift/Rx.xcodeproj">
+   </FileRef>
 </Workspace>

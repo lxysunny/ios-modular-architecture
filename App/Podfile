@@ -29,6 +29,10 @@ def project_path(projectName)
   return "../#{projectName}/#{projectName}"
 end
 
+target 'RxSwift' do
+	project "../RxSwift/Rx"
+end
+
 target 'CCCore' do
   project project_path("CCCore")
 

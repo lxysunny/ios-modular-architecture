@@ -23,11 +23,13 @@
 		5854659A203C050C00A00732 /* CCFeature1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 58546591203C050000A00732 /* CCFeature1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5854659B203C050C00A00732 /* CCFeature2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58546592203C050000A00732 /* CCFeature2.framework */; };
 		5854659C203C050C00A00732 /* CCFeature2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 58546592203C050000A00732 /* CCFeature2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5898A302204CE5090072E048 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5898A300204CE5090072E048 /* RxCocoa.framework */; };
-		5898A303204CE5090072E048 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5898A301204CE5090072E048 /* RxSwift.framework */; };
 		5898A30D204CF2140072E048 /* AppFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5898A30C204CF2140072E048 /* AppFlow.swift */; };
 		5898A336204E0E770072E048 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5898A335204E0E770072E048 /* MainView.swift */; };
 		890353B06A1BAC76A570E89C /* Pods_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 770A593C179DE7858FFD2593 /* Pods_AppTests.framework */; };
+		B841BDD42758E38900A3D5FB /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B841BDD22758E38900A3D5FB /* RxCocoa.framework */; };
+		B841BDD52758E38900A3D5FB /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B841BDD22758E38900A3D5FB /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B841BDD62758E38900A3D5FB /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B841BDD32758E38900A3D5FB /* RxSwift.framework */; };
+		B841BDD72758E38900A3D5FB /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B841BDD32758E38900A3D5FB /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +49,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				B841BDD52758E38900A3D5FB /* RxCocoa.framework in Embed Frameworks */,
 				5854659C203C050C00A00732 /* CCFeature2.framework in Embed Frameworks */,
+				B841BDD72758E38900A3D5FB /* RxSwift.framework in Embed Frameworks */,
 				58546594203C050C00A00732 /* CCComponents.framework in Embed Frameworks */,
 				58546596203C050C00A00732 /* CCCore.framework in Embed Frameworks */,
 				58546598203C050C00A00732 /* CCFeature0.framework in Embed Frameworks */,
@@ -74,13 +78,13 @@
 		58546590203C050000A00732 /* CCFeature0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CCFeature0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58546591203C050000A00732 /* CCFeature1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CCFeature1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58546592203C050000A00732 /* CCFeature2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CCFeature2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5898A300204CE5090072E048 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = ../Carthage/Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
-		5898A301204CE5090072E048 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		5898A30C204CF2140072E048 /* AppFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFlow.swift; sourceTree = "<group>"; };
 		5898A335204E0E770072E048 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		5D7392B9F1A1DA3ED748B43E /* Pods_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		770A593C179DE7858FFD2593 /* Pods_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E2BCC443C0042EF227EB713 /* Pods-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.release.xcconfig"; path = "Pods/Target Support Files/Pods-App/Pods-App.release.xcconfig"; sourceTree = "<group>"; };
+		B841BDD22758E38900A3D5FB /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B841BDD32758E38900A3D5FB /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F9CF61B62689DFE7816435 /* Pods-AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppTests/Pods-AppTests.release.xcconfig"; sourceTree = "<group>"; };
 		D699334D278FE7BC5D7E6E5E /* Pods-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-App/Pods-App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,11 +94,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5898A302204CE5090072E048 /* RxCocoa.framework in Frameworks */,
-				5898A303204CE5090072E048 /* RxSwift.framework in Frameworks */,
 				58546597203C050C00A00732 /* CCFeature0.framework in Frameworks */,
 				58546599203C050C00A00732 /* CCFeature1.framework in Frameworks */,
+				B841BDD42758E38900A3D5FB /* RxCocoa.framework in Frameworks */,
 				5854659B203C050C00A00732 /* CCFeature2.framework in Frameworks */,
+				B841BDD62758E38900A3D5FB /* RxSwift.framework in Frameworks */,
 				58546595203C050C00A00732 /* CCCore.framework in Frameworks */,
 				461E810FF34B59D6E977094E /* Pods_App.framework in Frameworks */,
 				58546593203C050C00A00732 /* CCComponents.framework in Frameworks */,
@@ -169,8 +173,8 @@
 		9418C9D5A244D49CA90BFC35 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5898A300204CE5090072E048 /* RxCocoa.framework */,
-				5898A301204CE5090072E048 /* RxSwift.framework */,
+				B841BDD22758E38900A3D5FB /* RxCocoa.framework */,
+				B841BDD32758E38900A3D5FB /* RxSwift.framework */,
 				5854658E203C050000A00732 /* CCComponents.framework */,
 				5854658F203C050000A00732 /* CCCore.framework */,
 				58546590203C050000A00732 /* CCFeature0.framework */,
@@ -195,7 +199,6 @@
 				58546535203BED9F00A00732 /* Resources */,
 				6945E1B3CBA25130FE85640A /* [CP] Embed Pods Frameworks */,
 				58546579203C04D900A00732 /* Embed Frameworks */,
-				5898A2FF204CD7E20072E048 /* Copy Carthage Libs */,
 			);
 			buildRules = (
 			);
@@ -286,31 +289,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5898A2FF204CD7E20072E048 /* Copy Carthage Libs */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/../Carthage/Carthage/Build/iOS/RxSwift.framework",
-				"$(SRCROOT)/../Carthage/Carthage/Build/iOS/RxCocoa.framework",
-			);
-			name = "Copy Carthage Libs";
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
 		6945E1B3CBA25130FE85640A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-App/Pods-App-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-App/Pods-App-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
@@ -323,7 +308,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-App/Pods-App-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App/Pods-App-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		937ACECB18D4ED35AAEEA55A /* [CP] Check Pods Manifest.lock */ = {
@@ -350,7 +335,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AppTests/Pods-AppTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-AppTests/Pods-AppTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
@@ -363,7 +348,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppTests/Pods-AppTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppTests/Pods-AppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FBCB4A8039B71444AF8D3EF6 /* [CP] Check Pods Manifest.lock */ = {
